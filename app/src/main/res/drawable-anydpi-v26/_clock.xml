@@ -5,7 +5,7 @@
         <layer-list>
             <item>
                 <rotate
-                    android:drawable="@drawable/dummyIcon"
+                    android:drawable="@drawable/dummyicon"
                     android:fromDegrees="300.0"
                     android:toDegrees="5300.0"
                     android:pivotX="50%"
@@ -13,7 +13,7 @@
             </item>
             <item>
                 <rotate
-                    android:drawable="@drawable/dummyIcon"
+                    android:drawable="@drawable/dummyicon"
                     android:fromDegrees="60.0"
                     android:toDegrees="60060.0"
                     android:pivotX="50%"
