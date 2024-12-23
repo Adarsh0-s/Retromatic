@@ -1,7 +1,7 @@
 @file:Suppress("unused")
 
 object MyApp {
-    const val appId = "dev.jahir.blueprint.app"
-    const val version = 242
-    const val versionName = "2.4.2"
+    const val appId = "com.nodeshaper.retromatic"
+    const val version = 262
+    const val versionName = "2.6.2"
 }

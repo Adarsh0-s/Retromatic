@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <appmap>
-
-    <!-- Contacts App -->
     <item
-        class="com.android.contacts.DialtactsContactsEntryActivity"
-        name="people" />
-
+        class="com.google.android.apps.chrome.Main"
+        name="chrome" />
+    <item
+        class="com.antutu.ABenchMark.ABenchMarkStart"
+        name="antutu_benchmark" />
 </appmap>

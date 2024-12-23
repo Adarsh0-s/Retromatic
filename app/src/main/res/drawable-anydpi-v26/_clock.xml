@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/iconback"/>
+    <foreground>
+        <layer-list>
+            <item>
+                <rotate
+                    android:drawable="@drawable/dummyIcon"
+                    android:fromDegrees="300.0"
+                    android:toDegrees="5300.0"
+                    android:pivotX="50%"
+                    android:pivotY="50%"/>
+            </item>
+            <item>
+                <rotate
+                    android:drawable="@drawable/dummyIcon"
+                    android:fromDegrees="60.0"
+                    android:toDegrees="60060.0"
+                    android:pivotX="50%"
+                    android:pivotY="50%"/>
+            </item>
+            <item>
+                <inset
+                    android:inset="14.4%">
+                    <bitmap
+                        android:src="@drawable/clock"/>
+                </inset>
+            </item>
+        </layer-list>
+    </foreground>
+</adaptive-icon>

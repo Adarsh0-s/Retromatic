@@ -4,7 +4,7 @@
     <color name="primary">#ffffff</color>
     <color name="primaryDark">#fafafa</color>
     <color name="onPrimary">#de000000</color>
-
+    <color name="white">#ffffff</color>
     <color name="accent">#3881fa</color>
     <color name="onAccent">#ffffff</color>
 
@@ -56,5 +56,5 @@
     <color name="amoledThemeSnackbarBackgroundColor">#ffffff</color>
     <color name="amoledThemeSnackbarTextColor">#de000000</color>
     <color name="amoledThemeSnackbarButtonColor">#3c9983</color>
-
+    <color name="ic_launcher_background">#fffff2e2</color>
 </resources>
