@@ -1,0 +1,20 @@
+name: Build App
+
+on:
+  pull_request:
+    branches:    
+      - sample
+      - master
+  push:
+    branches:
+      - sample
+      - master
+
+jobs:
+  test:
+    name: Build app
+    runs-on: ubuntu-18.04
+    steps:
+              - name: automated-build-android-app-with-github-action
+                uses: amirisback/automated-build-android-app-with-github-action@2.2.5
+            
