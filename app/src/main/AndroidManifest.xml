@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="dev.jahir.blueprint.app">
+    package="com.nodeshaper.retromatic">
 
     <!-- Permission required for donations. Remove it if you don't use it -->
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -211,6 +211,15 @@
                 <action android:name="cdproductions.crazyicons.TWO" />
 
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+	<!-- Moto Launcher -->
+            <intent-filter>
+                <action
+                    android:name="com.motorola.launcher.ACTION_ICON_PACK" />
+                <action
+                    android:name="com.motorola.launcher3.ICON_PACK_CHANGED" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <!-- Theme Manager -->
             <intent-filter>
