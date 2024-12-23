@@ -20,14 +20,14 @@
         True, means yes.
         False, means no.
     -->
-    <bool name="show_quick_apply_text">false</bool>
+    <bool name="show_quick_apply_text">true</bool>
 
     <!--
         Set a custom text to the quick apply button.
         Be sure to add translations, or it might not be shown in other languages.
         Leave empty for the app to use the default "Quick Apply" text
     -->
-    <string name="quick_apply_custom_text"></string>
+    <string name="quick_apply_custom_text">Apply Retromatic</string>
 
     <!-- These arrays are for the list of apps or links in main section. -->
     <string-array name="home_list_titles">
