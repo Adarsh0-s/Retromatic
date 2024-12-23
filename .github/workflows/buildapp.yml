@@ -1,19 +1,12 @@
-name: Build App
+name: Build release APK
 
 on:
-  pull_request:
-    branches:    
-      - sample
-      - master
-  push:
-    branches:
-      - sample
-      - master
+  workflow_dispatch:
 
 jobs:
-  test:
-    name: Build app
-    runs-on: ubuntu-18.04
+  build-release-apk:
+    runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
               - name: automated-build-android-app-with-github-action
                 uses: amirisback/automated-build-android-app-with-github-action@2.2.5
