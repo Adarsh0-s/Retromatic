@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+    <string-array name="credits_photos" formatted="false" tools:ignore="TypographyDashes">
+        <item>https://raw.githubusercontent.com/Adarsh0-s/Retromatic/refs/heads/sample/IMG_20241223_113117_917.jpg</item>
+    </string-array>
+
+    <string-array name="credits_titles">
+        <item>Adarsh Singh</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>I am Nobody.</item>
+    </string-array>
+
+    <string-array name="credits_buttons">
+        <item>Telegram|Channel</item>
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>https://t.me/adarsh0s|https://t.me/MotoCustomization</item>
+    </string-array>
+</resources>
